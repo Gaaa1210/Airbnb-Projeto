@@ -5,66 +5,122 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+header{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1px 100px 0 100px;
+    background-color: white;
+    box-shadow: 0 1px 3px rgba(47, 47, 47, 0.5);
 }
 
-header {
+.logo img{
+    width: 100px;
+    height: auto;
+    margin-left: 200px;
+}
+
+.pesquisa{
+    display:flex;
+    align-items: center;
+    border: 1px solid rgba(169, 169, 169, 0.852);
+    border-radius: 50px;    
+    padding: 7px 12px;
+    background-color: white;
+    margin-left: 200px;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.489);
+}
+
+.texto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 9px;
+    font-weight: normal;
+    margin-right: 10px;
+    color: #3a3a3a;
+    cursor:pointer;
+}
+.hospedes{
+    color:rgba(95, 95, 95, 0.765);
+}
+
+.dividir{
+    margin-right: 10px;
+    margin-left: 10px;
+    background-color: rgba(159, 159, 159, 0.648);
+    height: 19px;
+    width: 1px;
+}
+
+.pesquisaBotao {
+    display: flex;
+    border-radius: 50px;
+    border: none;
+    background-color: red;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    margin-left: 10px;
+    padding: 0;
+}
+.pesquisaBotao svg{
+    width: 12px;
+    height: 12px;
+    color: white;
+}
+
+.anuncie{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 10px 400px;
-    background-color: #fff;
-    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
 }
 
-.logo img {
-    width: 100px;
+.anuncie h1 {
+    font-size: 14px;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.conta, .perfil-foto, .menu, .internet{
+    background-color: transparent;
+    border: none; 
+    outline: none; 
+    
+}
+
+.internet {
+    width: 19px;
     height: auto;
-}
+    border:none;
+    margin-left: 20px;
+    cursor: pointer;
+}       
 
-.pesquisa {
+.conta{
     display: flex;
     align-items: center;
-    border: 1px solid #a1a1a1;
+    border: 1px solid rgb(120, 120, 120);
     border-radius: 50px;
-    padding: 10px 15px;
-    background-color: #ffffff;
-}
-.pesquisa h2 {
-    display: flex;
-    justify-content: center; 
-    align-items: center; 
-    font-size: 15px;
-    font-weight: normal;
-    margin-right: 10px;
-    color: #333;
-    cursor: pointer;
+    padding: 7px 7px;
+    margin-right: 300px;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.489);
 }
 
-.divider {
-    height: 20px;
-    width: 1px;
-    background-color: #ddd;
-    margin: 0 15px;
+.perfil-foto svg {
+    width: 30px;
+    height: auto;
+    margin-right: 5px;
+    color:rgb(120, 120, 120)
 }
 
-.search-btn {
-    background-color: #FF385C;
-    border: none;
-    border-radius: 50%;
-    padding: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-}
-
-.search-btn svg {
-    stroke: #fff;
-}
-
-.conta {
-    display: flex;
-    align-items: center;
-    padding: 10px 15px;
+.menu svg {
+    width: 20px;
+    height: auto;
+    margin-left: 5px;
+    color:rgb(120, 120, 120)
 }
