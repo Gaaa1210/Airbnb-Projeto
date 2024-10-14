@@ -86,7 +86,6 @@ header {
     font-size: 14px;
     cursor: pointer;
     margin-left: 20px;
-    
 }
 
 .conta,
@@ -96,7 +95,6 @@ header {
     background-color: transparent;
     border: none;
     outline: none;
-
 }
 
 .internet {
@@ -121,14 +119,14 @@ header {
     width: 30px;
     height: auto;
     margin-right: 5px;
-    color: rgb(120, 120, 120)
+    color: rgb(120, 120, 120);
 }
 
 .menu svg {
     width: 20px;
     height: auto;
     margin-left: 5px;
-    color: rgb(120, 120, 120)
+    color: rgb(120, 120, 120);
 }
 
 .imagenss {
@@ -189,7 +187,6 @@ header {
 }
 
 .salvar:hover {
-
     background-color: rgba(232, 232, 232, 0.758);
 }
 
@@ -319,18 +316,13 @@ header {
 }
 
 .nomeAnfitria h1 {
-    margin-left:20px;
+    margin-left: 20px;
     font-size: 16px;
 }
 
 .nomeAnfitria a {
     margin-left: 20px;
     font-size: 13px;
-}
-.divisor {
-    background-color: rgba(159, 159, 159, 0.648);
-    height: 1px;
-    width: 700px;
 }
 
 .description {
@@ -346,6 +338,7 @@ header {
     align-items: center;
     padding: 10px 0px;
 }
+
 .curtaImg svg,
 .salaImg svg,
 .tenteImg svg,
@@ -370,16 +363,11 @@ header {
     margin-left: 15px;
 }
 
-.divisor {
-    background-color: rgba(159, 159, 159, 0.648);
-    height: 1px;
-    width: 700px;
-}
-
-.descricaoCompleta{
-    padding:30px 0px; 
+.descricaoCompleta {
+    padding: 30px 0px;
     align-items: center;
 }
+
 .exibirOriginal {
     justify-content: center;
     align-items: center;
@@ -410,20 +398,13 @@ header {
     padding: 8px;
 }
 
-.divisor1 {
-    margin:0;
-    margin-top: -40px;
-    background-color: rgba(159, 159, 159, 0.648);
-    height: 1px;
-    width: 700px;
-}
 .quemRecebe {
     padding: 20px 0px;
 }
 
 .receptor {
-    display: flex; 
-    align-items: center; 
+    display: flex;
+    align-items: center;
     background-color: #fff;
     border-radius: 15px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -435,12 +416,12 @@ header {
     width: 100px;
     height: 100px;
     border-radius: 50%;
-    margin-right: 15px; 
+    margin-right: 15px;
 }
 
 .receptorNome {
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;
     align-items: center;
     margin-bottom: 15px;
 }
@@ -460,7 +441,7 @@ header {
 .textoImagem {
     display: flex;
     flex-direction: column;
-    align-items: center; 
+    align-items: center;
 }
 
 .textoReceptor {
@@ -468,8 +449,8 @@ header {
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
-    text-align: left; 
-    margin-left: 30px; 
+    text-align: left;
+    margin-left: 30px;
 }
 
 .divisor3 {
@@ -508,7 +489,7 @@ header {
     width: 200px;
 }
 
-.quemDescricao{
+.quemDescricao {
     padding: 4px 0px;
 }
 
@@ -519,6 +500,7 @@ header {
 .tituloBiografia {
     display: flex;
 }
+
 .onde a,
 .meuTrabalho a,
 .curiosidade a,
@@ -527,6 +509,7 @@ header {
     margin-left: 10px;
     margin-top: 8px;
 }
+
 .onde svg,
 .meuTrabalho svg,
 .curiosidade svg,
@@ -539,6 +522,7 @@ header {
 .textoQualquer {
     padding: 10px 0px;
 }
+
 .divisor5 {
     margin-bottom: 20px;
     margin-top: 20px;
@@ -567,11 +551,12 @@ header {
 .comentariosHeader a {
     color: black;
 }
+
 .comentarios {
     padding: 0px 300px;
-    display: grid; /* Ativando grid layout */
-    grid-template-columns: repeat(2, 1fr); /* Duas colunas de tamanho igual */
-    gap: 20px; /* Espaçamento entre colunas */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
 }
 
 .comentario1,
@@ -644,21 +629,276 @@ header {
     border-radius: 10px;
     cursor: pointer;
 }
-footer{
+
+footer {
     padding: 0px 300px;
     margin-top: 40px;
     background-color: rgb(214, 214, 214);
     align-items: center;
     border-top: 1px solid rgb(157, 157, 157);
-    
 }
+
 .airbnbLocal {
     padding: 30px;
     font-size: 15px;
     border-bottom: 1px solid rgb(157, 157, 157);
 }
+
 .textoMidias {
     align-items: center;
     justify-content: center;
-    padding:10px 10px;
+    padding: 10px 10px;
+}
+
+@media screen and (max-width: 1200px) {
+    header {
+        padding: 1px 50px 0 50px;
+    }
+
+    .logo img {
+        margin-left: 50px;
+    }
+
+    .pesquisa {
+        margin-left: 50px;
+    }
+
+    .conta {
+        margin-right: 100px;
+    }
+
+    .imagenss {
+        padding: 20px 100px 0 100px;
+    }
+
+    .descricao {
+        margin: 25px 100px;
+    }
+
+    .comentariosHeader,
+    .comentarios,
+    .mostrarTodosButton,
+    footer {
+        padding: 0px 100px;
+    }
+
+    .comentarios {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px 20px;
+    }
+
+    .logo img {
+        margin-left: 0;
+    }
+
+    .pesquisa {
+        margin-left: 0;
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .conta {
+        margin-right: 0;
+        margin-top: 10px;
+    }
+
+    .imagenss {
+        padding: 20px 50px 0 50px;
+    }
+
+    .descricao {
+        margin: 25px 50px;
+    }
+
+    .comentariosHeader,
+    .comentarios,
+    .mostrarTodosButton,
+    footer {
+        padding: 0px 50px;
+    }
+
+    .compartilhar,
+    .salvar {
+        margin-left: 0;
+    }
+
+    .images {
+        grid-template-columns: 1fr;
+    }
+
+    .descricao h1 {
+        font-size: 18px;
+    }
+
+    .descricao h3 {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    header {
+        padding: 10px;
+    }
+
+    .pesquisa {
+        padding: 5px;
+    }
+
+    .pesquisaBotao {
+        width: 25px;
+        height: 25px;
+    }
+
+    .descricao {
+        margin: 10px;
+    }
+
+    .comentariosHeader,
+    .comentarios,
+    .mostrarTodosButton,
+    footer {
+        padding: 0px 10px;
+    }
+
+    .comentarios {
+        grid-template-columns: 1fr;
+    }
+
+    .mostrarTodosButton {
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .anuncie h1,
+    .descricao h1,
+    .nomeAnfitria h1,
+    .comentariosHeader h2 {
+        font-size: 18px;
+    }
+
+    .descricao h3 {
+        font-size: 14px;
+    }
+
+    .descricaoCompleta,
+    .atividades {
+        font-size: 14px;
+    }
+
+    .comentarios {
+        font-size: 14px;
+    }
+
+    .mostrarTodosButton h1 {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .anuncie h1,
+    .descricao h1,
+    .nomeAnfitria h1,
+    .comentariosHeader h2 {
+        font-size: 16px;
+    }
+
+    .descricao h3 {
+        font-size: 12px;
+    }
+
+    .descricaoCompleta,
+    .atividades {
+        font-size: 12px;
+    }
+
+    .comentarios {
+        font-size: 12px;
+    }
+
+    .mostrarTodosButton h1 {
+        font-size: 12px;
+    }
+
+    .textoQualquer,
+    .nomeAnfitria a,
+    .atividades p,
+    .first,
+    .secund,
+    .listados li {
+        font-size: 12px;
+    }
+
+    .anfitria img,
+    .receptor img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .receptorNome h1 {
+        font-size: 16px;
+    }
+
+    .mostrarMais {
+        padding: 5px 15px;
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .anuncie h1,
+    .descricao h1,
+    .nomeAnfitria h1,
+    .comentariosHeader h2 {
+        font-size: 14px;
+    }
+
+    .descricao h3 {
+        font-size: 12px;
+    }
+
+    .descricaoCompleta,
+    .atividades {
+        font-size: 12px;
+    }
+
+    .comentarios {
+        font-size: 12px;
+    }
+
+    .mostrarTodosButton h1 {
+        font-size: 12px;
+    }
+
+    .textoQualquer,
+    .nomeAnfitria a,
+    .atividades p,
+    .first,
+    .secund,
+    .listados li {
+        font-size: 12px;
+    }
+
+    .anfitria img,
+    .receptor img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .receptorNome h1 {
+        font-size: 14px;
+    }
+
+    .mostrarMais {
+        padding: 5px 10px;
+        font-size: 12px;
+    }
 }
